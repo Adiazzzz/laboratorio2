@@ -1,0 +1,164 @@
+
+.clase-header{
+    background-color: #00A9B4;
+    align-items: center;
+    padding: 30px;
+}
+.clase-nav{
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+
+}
+.clase-nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;   
+    margin-right: 20px; 
+}
+.clase-nav :hover{
+    background-color: #FF7E00;
+    font-weight: 700;
+    padding: 5px 11px;
+    color: #ffffff;
+    transition: background-color 0.2s ease;
+}
+.clase-icono{
+    display: inline-block;
+    width: 45%;
+}
+.clase-informacion{
+    text-align: center;
+    cursor: default;
+    background-color: rgb(250, 247, 247);
+    padding: 40px 20px;
+}
+.clase-informacion h1{
+color: #00A9B4;
+}
+.clase-informacion strong{
+    color: cadetblue;
+}
+.clase-servicios {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+ }
+ 
+ .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+ }
+ 
+ .titulo hr {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #ccc;
+    border: none;
+ }
+ 
+ .titulo h3 {
+    margin: 0 29px;
+    font-size: 26px;
+    color: #333333;
+    font-weight: 600;
+    padding: 20px;
+ }
+ 
+ .secciones {
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ .servicio {
+    text-align: center;
+    max-width: 200px;
+ }
+ .secciones h3{
+    color: blue;
+    font-weight: 600;
+ }
+ 
+ .icono img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+ }
+ .pie-pagina{
+    background-color: #00A9B4;
+    color: #ffffff;
+    text-align: center;
+ }
+ .pie-pagina h3{
+    font-size: 30px;
+ }
+ .imagen img{
+    width: 200px;
+    margin: 50px;
+ }
+@media (max-width: 600px){
+    @media (max-width: 600px) {
+        .clase-header {
+          flex-direction: column;
+          align-items: center; 
+        }
+        .clase-icono {
+            width: 100%;
+          text-align: center;
+        }
+        .clase-nav {
+          width: 100%;
+          text-align: center;
+        }
+        .clase-nav a {
+          margin-right: 10px;
+        }
+      
+        .clase-informacion {
+          padding: 20px;
+        }
+        .clase-informacion h1 {
+          font-size: 24px;
+        }
+        .clase-informacion strong {
+          font-size: 18px;
+        }
+    
+        .clase-servicios {
+          flex-direction: column;
+          align-items: center;
+        }
+        .secciones {
+            flex-direction: column;
+        }
+        .servicio {
+          max-width: 100%;
+          margin-bottom: 20px;
+        }
+        .icono img {
+          width: 120px;
+        }
+      
+        .pie-pagina {
+          padding: 20px;
+        }
+        .pie-pagina h3 {
+          font-size: 24px;
+        }
+
+        .imagen img {
+          width: 100px;
+          margin: 10px;
+        }
+        .clase-nav :hover{
+            background-color: #FF7E00;
+            font-weight: 700;
+            padding: 3px 6px;
+            color: #ffffff;
+            transition: background-color 0.2s ease;
+        }
+      }
+}
